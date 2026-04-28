@@ -89,39 +89,9 @@ students.forEach( (student) => {
     )} },
 
 
-
-
-    // ul.innerHTML += 
-    // `
-    // <li>
-    // <div class="top">
-    // <div class="top__img-wrapper">
-    // <img src="${student.img}" alt="avatar">
-    // <p> ${student.name} </p>
-    // </div>
-    
-    // <div class="top__right-wrapper">
-    // <div class="right-elemet id">No ${student.id}</div>
-    // <div class="right-elemet score">${student.score} score</div>
-    // <div class="right-elemet group"> ${student.group} group</div>
-    // </div>
-    // </div>
-    
-    
-    // <div class="bottom">
-    // <div class="email">    <i></i> ${student.email}  </div>
-    // <div class="username"> <i></i>${student.username}  </div>
-    // <div class="phone">    <i></i>  ${student.phone}  </div>
-    // </div>
-    // </li>
-    // ` 
-
     jami = jami.concat(),
 
     ul.innerHTML = jami,
 
 
 console.log(`jami:${jami.length} alo:${alo.length} yomon: ${yomon.length} orta: ${orta.length}`)
-
-
-// students.filter(student => student.score >= 70 ? this.parentElement().classList.add('green'): 'smth' )}
