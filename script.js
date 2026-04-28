@@ -1,5 +1,4 @@
 const ul = document.querySelector('ul');
-// ul.innerHTML = ""
 let jami = []
 
 let alo = []
@@ -7,7 +6,6 @@ let orta = []
 let yomon = []
 
 students.forEach( (student) => {
-
     if(student.score >= 70){
     alo.push(
     ` <li>
@@ -22,8 +20,7 @@ students.forEach( (student) => {
     <div style="color: rgba(16, 244, 134, 0.949); " class="right-elemet score">${student.score} score</div>
     <div class="right-elemet group"> ${student.group} group</div>
     </div>
-    </div>
-    
+    </div>    
     
     <div class="bottom">
     <div class="email">    <i></i> ${student.email}  </div>
@@ -51,8 +48,7 @@ students.forEach( (student) => {
     <div style="color: rgba(255, 238, 0, 0.976); " class="right-elemet score">${student.score} score</div>
     <div class="right-elemet group"> ${student.group} group</div>
     </div>
-    </div>
-    
+    </div>   
     
     <div class="bottom">
     <div class="email">    <i></i> ${student.email}  </div>
@@ -82,7 +78,6 @@ students.forEach( (student) => {
     <div class="right-elemet group"> ${student.group} group</div>
     </div>
     </div>
-    
     
     <div class="bottom">
     <div class="email">    <i></i> ${student.email}  </div>
