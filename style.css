@@ -1,12 +1,10 @@
 *{
     font-family: sans-serif;
 }
-
  /* classes for js */
 .red   { color: rgba(241, 18, 104, 0.695); }
 .orange{ color: rgba(255, 238, 0, 0.976);  }
 .green { color: rgba(16, 244, 134, 0.949); }
-
 
 /* main */
 body{
@@ -39,7 +37,6 @@ img{
 }
 .top{
     position: relative;
-
 }
 .top__img-wrapper{
     display: flex;
