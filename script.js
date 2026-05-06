@@ -62,7 +62,6 @@ students.forEach( (student) => {
 
 students.forEach( (student) => {
 
-
     if(student.score <= 50){
     yomon.push( 
     ` <li>
@@ -88,10 +87,7 @@ students.forEach( (student) => {
     ` 
     )} },
 
-
     jami = jami.concat(),
-
     ul.innerHTML = jami,
-
 
 console.log(`jami:${jami.length} alo:${alo.length} yomon: ${yomon.length} orta: ${orta.length}`)
